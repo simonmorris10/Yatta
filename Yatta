@@ -1,0 +1,172 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yatta | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Contact Info Above Navbar -->
+    <div class="contact-info">
+        <p>Call Me: <a href="tel:+1234567890">+254 745 858 362</a></p>
+    </div>
+
+    <!-- CV Download Button -->
+    <a href="Simon Yatta CV.pdf" class="cv-btn" download>Download CV</a>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <h1 class="logo">Simon Yatta</h1>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#project">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="container">
+            <h2>Hello, I'm Simon Yatta</h2>
+            <p>I'm a Full Stack Developer and Digital Marketer passionate about building dynamic web experiences.</p>
+            <a href="#project" class="btn">View My Work</a>
+        </div>
+    </header>
+    <section id="about">
+    <section class="about-me">
+        <div class="about-content">
+            <img src="s.jpg" alt="Yatta Simon" class="profile-pic">
+            <div class="text-content">
+                <h2>About Me</h2>
+                <p>As a full-stack developer with a passion for digital marketing, I specialize in creating both aesthetically pleasing and highly functional websites. With a strong background in both front-end and back-end development, I bring a comprehensive approach to problem-solving and project management.</p>
+                <p>Over the years, I have worked on a range of projects that encompass not just coding but also strategic digital marketing techniques to help businesses grow their online presence.</p>
+                <p>Let’s work together to bring your ideas to life!</p>
+            </div>
+        </div>
+    </section>
+</section>
+    
+
+<section id="project">
+    <section class="project-gallery">
+        <div class="project-card">
+            <img src="4.png" alt="Project 1">
+            <h2>The Samaritan</h2>
+            <p>The Samaritan is a cutting-edge job board system designed to connect job seekers with their ideal opportunities. Our platform streamlines the job search process, making it easier for candidates to find roles that match their skills and aspirations. </p>
+            <a href="https://github.com/simonmorris10" class="project-link">View Project</a>
+        </div>
+        <div class="project-card">
+            <img src="logo.PNG" alt="Project 2">
+            <h2>Yatta Tech Academy</h2>
+            <p>Yatta Tech Academy is a premier online educational platform dedicated to empowering individuals with the skills needed for the digital age. Offering a wide range of courses in technology, programming, and personal development. </p>
+            <a href="https://github.com/simonmorris10" class="project-link">View Project</a>
+        </div>
+        <div class="project-card">
+            <img src="3.jpg" alt="Project 3">
+            <h2>Juba Transfer Solutions</h2>
+            <p>Juba Transfer Solutions (JTS) is an online platform that I built for transfering money within Juba city with the hope of expanding it to other regions within South Sudan</p>
+            <a href="https://github.com/simonmorris10" class="project-link">View Project</a>
+        </div>
+        <div class="project-card">
+            <img src="2.jpg" alt="Project 4">
+            <h2>CounterApp</h2>
+            <p>
+                CounterApp is a simple yet engaging app I built for fun to help users keep track of counts for various activities. Whether you’re monitoring daily habits, counting steps, or tallying events, CounterApp offers a user-friendly interface with customizable counters. </p>
+            <a href="https://github.com/simonmorris10" class="project-link">View Project</a>
+        </div>
+    </section>
+</section>
+    <section id="contact">
+        <div class="container">
+            <h2>Get in Touch</h2>
+            <p>If you have any questions or would like to collaborate, feel free to reach out using the form below.</p>
+            <form action="#" method="post" id="contact-form">
+                <div class="form-group">
+                    <input type="text" name="name" placeholder="Full Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" name="email" placeholder="Email Address" required>
+                </div>
+                <div class="form-group">
+                    <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+            <div class="map">
+                <h3>Find Me Here</h3>
+                <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d796978.5221520476!2d34.48038376549918!3d3.6810467687641947!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x172c2d81ef29f3f7%3A0x331d43dfbca1b3f6!2sKakuma%2C%20Kenya!5e0!3m2!1sen!2sus!4v1698165949635!5m2!1sen!2sus" 
+                width="600" 
+                height="450" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy">
+            </iframe>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Simon Yatta. All Rights Reserved.
+            
+            <div class="social-media">
+                <h3>Connect with Me</h3>
+                <a href="https://www.linkedin.com/in/simon-morris2154?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">LinkedIn</a>
+                <a href="https://www.upwork.com/freelancers/~014f61b81ffe7317db?mp_source=share" target="_blank">Upwork</a>
+                <a href="https://github.com/simonmorris10" target="_blank">GitHub</a>
+                <a href="https://www.instagram.com/simonmorris426/profilecard/?igsh=dGc1NG5sNnM2dzB5" target="_blank">Instagram</a>
+            </div>
+        </div>
+    </footer>
+    <button onclick="scrollToTop()" id="backToTopBtn" title="Go to top">&#8679;</button>
+    
+    <script>
+        // Smooth scroll for links
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
+
+// Responsive menu and the fckn hambuger
+document.addEventListener('DOMContentLoaded', () => {
+    const hamburger = document.querySelector('.hamburger');
+    const navLinks = document.querySelector('.nav-links');
+
+    hamburger.addEventListener('click', () => {
+        navLinks.classList.toggle('active');
+    });
+});
+
+// Show the button when scrolling down
+window.onscroll = function() {
+            const backToTopBtn = document.getElementById("backToTopBtn");
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                backToTopBtn.style.display = "block";
+            } else {
+                backToTopBtn.style.display = "none";
+            }
+        };
+
+        // Smooth scroll to top function
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+  </script>
+</body>
+</html>
+
